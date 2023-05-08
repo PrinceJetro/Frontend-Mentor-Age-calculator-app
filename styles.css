@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400i,700,800i&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  }
+
+.input{
+    display: inline-block;
+    width: 32%;
+}
+
+.input p{
+    color:hsl(0, 100%, 67%);
+}
+
+.input input{
+    width: 75%;
+    height: 50px;
+    font-size: 32px;
+    border-radius: 10px;
+}
+
+.input_div{
+    margin-bottom: 20px;
+}
+
+.calculations h1{
+    display: inline-block;
+    font-weight: 700;
+}
+
+#months, #days, #years{
+    color: hsl(259, 100%, 65%);
+}
+
+.calculation_div{
+    margin-top: 60px;
+}
