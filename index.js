@@ -3,6 +3,10 @@ function getAge() {
     d = document.getElementById("day_input").value;
     y = document.getElementById("year_input").value;
 
+    if (!m || !d || !y){
+      return;
+    }
+
     dateString = m + "/" + d + '/' +  y;
   var now = new Date();
   var today = new Date(now.getYear(),now.getMonth(),now.getDate());
